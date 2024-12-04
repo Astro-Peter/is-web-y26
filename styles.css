@@ -125,3 +125,11 @@ body {
     background-color: turquoise;
     color: #333;
 }
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}

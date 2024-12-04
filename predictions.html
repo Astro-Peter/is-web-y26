@@ -22,6 +22,22 @@
                 <a class="page-link" href="contact.html"><button class="nav right-nav" href="contact.html">About</button></a>
             </div>
         </header>
+
+        <h1>Dynamic List</h1>
+
+        <select id="itemSelect">
+            <option value="KCTPB">Kansas - Bucs</option>
+            <option value="BRPS">Ravens - Steelers</option>
+        </select><br><br>
+        <select id="winnerSelect">
+            <option value="winner">1</option>
+            <option value="loser">2</option>
+        </select>
+        <button id="addItemButton">Add Prediction</button>
+    
+        <ul id="dynamicList"></ul>
+    
+        <script src="scripts/schedule.js"></script>
     <footer>
         <p>&copy; Sports Predictor</p>
         <p class="load-time"></p>
